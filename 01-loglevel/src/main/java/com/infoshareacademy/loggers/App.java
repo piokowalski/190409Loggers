@@ -5,6 +5,7 @@ import org.apache.logging.log4j.Logger;
 
 public class App {
     public static void main(String[] args) {
+
         Logger logger = LogManager.getLogger(App.class.getName());
 
         logger.info("This is an info message");
@@ -14,5 +15,6 @@ public class App {
         logger.error("Error!");
 
         logger.debug("This is a special top secret debug message only for developers");
+
     }
 }
